@@ -4,18 +4,6 @@ public class LinkedList {
 
     Node head;
 
-    // node creation
-    public class Node {
-
-        Object data;
-        Node next;
-
-        // constructor
-        public Node(Object data) {
-            this.data = data;
-        }
-    }
-
     /*
      * This is the method to add first element
      */
@@ -87,6 +75,18 @@ public class LinkedList {
         else {
             Node temp = head;
             head = temp.next;
+        }
+    }
+
+    // node creation
+    public class Node {
+
+        Object data;
+        Node next;
+
+        // constructor
+        public Node(Object data) {
+            this.data = data;
         }
     }
 }
