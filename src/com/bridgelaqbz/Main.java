@@ -11,6 +11,13 @@ public class Main {
         stack.push(56);
 
         stack.showElements();
+        stack.pop();
+        stack.showElements();
+        stack.pop();
+        stack.showElements();
+        stack.pop();
+        stack.showElements();
+
     }
 }
 
