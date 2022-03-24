@@ -18,6 +18,12 @@ public class Main {
         stack.pop();
         stack.showElements();
 
+        System.out.println("Welcome to the Queue Problems");
+        Queue queue = new Queue();
+        queue.enqueue(56);
+        queue.enqueue(30);
+        queue.enqueue(70);
+        queue.showElements();
     }
 }
 
